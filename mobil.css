@@ -1,0 +1,67 @@
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .main {
+    gap: 40px;
+    padding: 20px 15px;
+  }
+
+  .profile-card {
+    max-width: 320px;
+  }
+
+  .profile-content {
+    padding: 30px 40px;
+    gap: 25px;
+  }
+
+  .profile-image {
+    width: 160px;
+    height: 160px;
+  }
+
+  .namespace h1 {
+    font-size: 2rem;
+  }
+
+  .namespace p {
+    font-size: 1.25rem;
+  }
+
+  .profile-job {
+    font-size: 1rem;
+  }
+
+  .social-links {
+    gap: 20px;
+  }
+
+  .social-links a img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .greeting {
+    font-size: 3.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+
+  .button {
+    padding: 10px 28px;
+    font-size: 0.9rem;
+  }
+
+  .paragraph {
+    font-size: 1.1rem;
+    margin-top: 20px;
+  }
+}
